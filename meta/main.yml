@@ -1,0 +1,20 @@
+---
+galaxy_info:
+  author: Ansible Kitchen
+  description: Slanina role for Ansible Kitchen
+  company: Ansible Kitchen
+
+  license: MIT
+
+  min_ansible_version: 2.9
+
+  platforms:
+    - name: OracleLinux
+      versions:
+        - 8
+
+  galaxy_tags:
+    - slanina
+    - kitchen
+
+dependencies: []

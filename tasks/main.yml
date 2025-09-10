@@ -1,0 +1,14 @@
+---
+- name: Debug message
+  debug:
+    msg: "We need more slanina"
+  tags:
+    - debug
+
+- name: Create file on target system
+  copy:
+    dest: "/tmp/slanina_{{ '%Y%m%d-%H%M' | strftime }}"
+    content: "slanina: prepared for serving."
+    mode: '0644'
+  tags:
+    - file
